@@ -8,7 +8,7 @@ const app = express();
 
 //Body Parser middleware
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 //DB Config
 
